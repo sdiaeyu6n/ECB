@@ -30,7 +30,7 @@ from typing import Dict, Optional, Tuple, List
 COMFY_HOST        = os.environ.get("COMFY_HOST", "http://127.0.0.1:8125")
 
 # Path to the ComfyUI workflow JSON template
-TEMPLATE_PATH     = "script/flux_kontext_dev_basic.json"
+TEMPLATE_PATH     = "workflow/flux_kontext_dev_basic.json"
 
 # Where to scan for input images and where to save edited images
 SCAN_DIR          = Path("outputs/t2i_flux")
